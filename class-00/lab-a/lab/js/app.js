@@ -35,9 +35,8 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // The previous line of code threw an error because the 'rando' variable, when declared with 'let rando = makeRandom();', was scoped only to the specific block of code in which it was declared (in this case, the specific while loop). The console.log() function on line 38 was then calling for a variable that was no longer scoped for the whole displayPics() function (as 'rando' was previously when declared with 'var'), and so it threw an error since it couldn't find what the code was referencing.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
