@@ -3,40 +3,6 @@ nav, article, aside, footer section {
   width: 900px;
 }
 
-nav {
-  margin-top: 25px;
-}
-
-nav ul {
-  float: right;
-}
-
-nav li {
-  float: left;
-  padding-right: 2px;
-}
-
-hr {
-  clear: both;
-  border: 0;
-  height: 13px;
-  background-image: url('../img/hr.png');
-}
-
-h2 {
-  margin-top: 50px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.5em;
-}
-
-main p {
-  color: #333;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  text-indent: 30px;
-  margin: 20px 0px;
-}
-
 aside {
   padding-top: 30px;
   padding-bottom: 60px
@@ -72,14 +38,56 @@ aside button {
   border: none;
 }
 
-section hr {
-  border-bottom: 1px solid #eee;
-  height: 0;
-}
-
 footer section p{
   padding: 50px 0;
   line-height: 1.5em;
   text-align: center;
   color: #aaa;
 }
+
+h2 {
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
+
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
+section hr {
+  border-bottom: 1px solid #eee;
+  height: 0;
+}
+
+
+
+
+
+
+
+
