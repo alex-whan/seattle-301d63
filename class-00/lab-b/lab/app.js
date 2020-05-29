@@ -183,17 +183,17 @@ Student.prototype.scope = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scope());
+console.log(joe.scope());
 
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scopeArrow());
+console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// The "Student" object instantiated with the constructor function and assigned to the variable "joe"
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// The "global context" - aka, the "window" object in browsers - as arrow functions take the "this" from their enclosing lexical scope
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Arrow function expressions do not have any of their own bindings to the "this" keyword, so instead of referencing the "this" of its enclosing lexical scope (the prototype), it will reference its enclosing scope (the entire window object rather than the constructor).
